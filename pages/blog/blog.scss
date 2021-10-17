@@ -1,0 +1,26 @@
+.blog {
+  .bgroup {
+    display: flex;
+    margin: 0 20px;
+
+    section {
+      padding-top: 10px;
+    }
+
+    p {
+      padding-top: 10px;
+      padding-right: 20px;
+      font-size: 10px;
+    }
+  }
+
+  .image1 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../images/image5.jpg);
+
+    width: 160px;
+    height: 100px;
+  }
+}

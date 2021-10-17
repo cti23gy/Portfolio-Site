@@ -1,0 +1,105 @@
+.products {
+  .pgroup {
+    display: flex;
+    //justify-content: center;
+
+    section {
+      margin: auto;
+    }
+
+    a {
+      margin: auto;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    h2 {
+      padding-top: 10px;
+    }
+  }
+
+  .image1 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 179, 192, 0.2),
+        rgba(0, 179, 192, 0.2)
+      ),
+      url(../images/tour-03.jpg);
+
+    width: 260px;
+    height: 200px;
+  }
+  .image2 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 179, 192, 0.2),
+        rgba(0, 179, 192, 0.2)
+      ),
+      url(../images/tour-04.jpg);
+
+    width: 260px;
+    height: 200px;
+  }
+  .image3 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 179, 192, 0.2),
+        rgba(0, 179, 192, 0.2)
+      ),
+      url(../images/tour-05.jpg);
+
+    width: 260px;
+    height: 200px;
+  }
+  .image4 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 179, 192, 0.2),
+        rgba(0, 179, 192, 0.2)
+      ),
+      url(../images/tour-06.jpg);
+
+    width: 260px;
+    height: 200px;
+  }
+  .image5 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 179, 192, 0.2),
+        rgba(0, 179, 192, 0.2)
+      ),
+      url(../images/tour-07.jpg);
+
+    width: 260px;
+    height: 200px;
+  }
+  .image6 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 179, 192, 0.2),
+        rgba(0, 179, 192, 0.2)
+      ),
+      url(../images/tour-08.jpg);
+
+    width: 260px;
+    height: 200px;
+  }
+}

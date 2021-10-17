@@ -1,0 +1,111 @@
+.productlist {
+  section {
+    display: flex;
+  }
+
+  p {
+    padding-top: 100px;
+    margin-left: 20px;
+  }
+
+  .image1 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 179, 192, 0.2),
+        rgba(0, 179, 192, 0.2)
+      ),
+      url(../images/tour-03.jpg);
+
+    margin: 20px;
+    min-width: 320px;
+    height: 360px;
+  }
+  .image2 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 179, 192, 0.2),
+        rgba(0, 179, 192, 0.2)
+      ),
+      url(../images/tour-04.jpg);
+
+    margin: 20px;
+    min-width: 320px;
+    height: 360px;
+  }
+  .image3 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 179, 192, 0.2),
+        rgba(0, 179, 192, 0.2)
+      ),
+      url(../images/tour-05.jpg);
+
+    margin: 20px;
+    min-width: 320px;
+    height: 360px;
+  }
+  .image4 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 179, 192, 0.2),
+        rgba(0, 179, 192, 0.2)
+      ),
+      url(../images/tour-06.jpg);
+
+    margin: 20px;
+    min-width: 320px;
+    height: 360px;
+  }
+  .image5 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 179, 192, 0.2),
+        rgba(0, 179, 192, 0.2)
+      ),
+      url(../images/tour-07.jpg);
+
+    margin: 20px;
+    min-width: 320px;
+    height: 360px;
+  }
+  .image6 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 179, 192, 0.2),
+        rgba(0, 179, 192, 0.2)
+      ),
+      url(../images/tour-08.jpg);
+
+    margin: 20px;
+    min-width: 320px;
+    height: 360px;
+  }
+
+  .button {
+    margin-left: 600px;
+    height: 50px;
+    width: 100px;
+    background-color: rgb(127, 240, 255);
+    justify-content: center;
+    text-align: center;
+    padding-top: 16px;
+  }
+}

@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+nav {
+  height: 50px;
+  background-color: rgba($color: #150266, $alpha: 1);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  font-family: GillLight;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#app {
+  width: 900px;
+  min-height: calc(100vh - 100px);
+  margin: auto;
+  padding: 30px;
+  background-color: #79c9ff;
+
+  font-family: GillLight;
+}
+
+@font-face {
+  font-family: CRegular;
+  src: url(../fonts/Caveat-Regular.ttf);
+}
+
+@font-face {
+  font-family: CBold;
+  src: url(../fonts/Caveat-Bold.ttf);
+}
+
+@font-face {
+  font-family: GillLight;
+  src: url(../fonts/GillSans-Light.ttf);
+}
+
+@font-face {
+  font-family: Gill;
+  src: url(../fonts/GillSans.ttf);
+}
+
+@font-face {
+  font-family: GillItalic;
+  src: url(../fonts/GillSans-Italic.ttf);
+}

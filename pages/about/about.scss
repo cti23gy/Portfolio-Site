@@ -1,0 +1,14 @@
+.about {
+  display: flex;
+
+  .image1 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../../images/desk.jpg);
+
+    margin: 20px 60px;
+    min-width: 360px;
+    height: 400px;
+  }
+}
