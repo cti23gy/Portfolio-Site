@@ -1,4 +1,9 @@
 .home {
+  margin: auto;
+  width: 900px;
+  min-height: calc(100vh - 100px);
+  padding: 30px;
+  background-color: #79c9ff;
   .image1 {
     background-repeat: no-repeat;
     background-position: center;

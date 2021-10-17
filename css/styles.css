@@ -29,11 +29,13 @@ nav a {
   text-decoration: none; }
 
 #app {
-  width: 900px;
+  width: 100%;
   min-height: calc(100vh - 100px);
   margin: auto;
-  padding: 30px;
-  background-color: #79c9ff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(to right, rgba(0, 179, 192, 0.5), rgba(0, 179, 192, 0.5)), url(../images/trianglebackground1.png);
   font-family: GillLight; }
 
 @font-face {
@@ -56,17 +58,28 @@ nav a {
   font-family: GillItalic;
   src: url(../fonts/GillSans-Italic.ttf); }
 
-.home .image1 {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-image: url(../images/special-offer-01.jpg);
-  width: 500px;
-  height: 300px;
-  margin: auto; }
+.home {
+  margin: auto;
+  width: 900px;
+  min-height: calc(100vh - 100px);
+  padding: 30px;
+  background-color: #79c9ff; }
+  .home .image1 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../images/special-offer-01.jpg);
+    width: 500px;
+    height: 300px;
+    margin: auto; }
 
 .about {
-  display: flex; }
+  display: flex;
+  margin: auto;
+  width: 900px;
+  min-height: calc(100vh - 100px);
+  padding: 30px;
+  background-color: #79c9ff; }
   .about .image1 {
     background-repeat: no-repeat;
     background-position: center;
@@ -76,166 +89,174 @@ nav a {
     min-width: 360px;
     height: 400px; }
 
-.products .pgroup {
-  display: flex; }
-  .products .pgroup section {
-    margin: auto; }
-  .products .pgroup a {
-    margin: auto;
+.products {
+  margin: auto;
+  width: 900px;
+  min-height: calc(100vh - 100px);
+  padding: 30px;
+  background-color: #79c9ff; }
+  .products .pgroup {
+    display: flex; }
+    .products .pgroup section {
+      margin: auto; }
+    .products .pgroup a {
+      margin: auto;
+      text-align: center;
+      text-decoration: none; }
+    .products .pgroup h2 {
+      padding-top: 10px; }
+  .products .image1 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(0, 179, 192, 0.2), rgba(0, 179, 192, 0.2)), url(../images/tour-03.jpg);
+    width: 260px;
+    height: 200px; }
+  .products .image2 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(0, 179, 192, 0.2), rgba(0, 179, 192, 0.2)), url(../images/tour-04.jpg);
+    width: 260px;
+    height: 200px; }
+  .products .image3 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(0, 179, 192, 0.2), rgba(0, 179, 192, 0.2)), url(../images/tour-05.jpg);
+    width: 260px;
+    height: 200px; }
+  .products .image4 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(0, 179, 192, 0.2), rgba(0, 179, 192, 0.2)), url(../images/tour-06.jpg);
+    width: 260px;
+    height: 200px; }
+  .products .image5 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(0, 179, 192, 0.2), rgba(0, 179, 192, 0.2)), url(../images/tour-07.jpg);
+    width: 260px;
+    height: 200px; }
+  .products .image6 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(0, 179, 192, 0.2), rgba(0, 179, 192, 0.2)), url(../images/tour-08.jpg);
+    width: 260px;
+    height: 200px; }
+
+.contact {
+  margin: auto;
+  width: 900px;
+  min-height: calc(100vh - 100px);
+  padding: 30px;
+  background-color: #79c9ff; }
+  .contact .cgroup {
+    display: flex;
+    padding: 40px 100px; }
+    .contact .cgroup .info {
+      padding: 50px 100px; }
+  .contact .image1 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(0, 192, 192, 0.2), rgba(0, 192, 192, 0.2)), url(../images/image4.jpg);
+    width: 300px;
+    height: 240px; }
+
+.blog {
+  margin: auto;
+  width: 900px;
+  min-height: calc(100vh - 100px);
+  padding: 30px;
+  background-color: #79c9ff; }
+  .blog .bgroup {
+    display: flex;
+    margin: 0 20px; }
+    .blog .bgroup section {
+      padding-top: 10px; }
+    .blog .bgroup p {
+      padding-top: 10px;
+      padding-right: 20px;
+      font-size: 10px; }
+  .blog .image1 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../images/image5.jpg);
+    width: 160px;
+    height: 100px; }
+
+.productlist {
+  margin: auto;
+  width: 900px;
+  min-height: calc(100vh - 100px);
+  padding: 30px;
+  background-color: #79c9ff; }
+  .productlist section {
+    display: flex; }
+  .productlist p {
+    padding-top: 100px;
+    margin-left: 20px; }
+  .productlist .image1 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(0, 179, 192, 0.2), rgba(0, 179, 192, 0.2)), url(../images/tour-03.jpg);
+    margin: 20px;
+    min-width: 320px;
+    height: 360px; }
+  .productlist .image2 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(0, 179, 192, 0.2), rgba(0, 179, 192, 0.2)), url(../images/tour-04.jpg);
+    margin: 20px;
+    min-width: 320px;
+    height: 360px; }
+  .productlist .image3 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(0, 179, 192, 0.2), rgba(0, 179, 192, 0.2)), url(../images/tour-05.jpg);
+    margin: 20px;
+    min-width: 320px;
+    height: 360px; }
+  .productlist .image4 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(0, 179, 192, 0.2), rgba(0, 179, 192, 0.2)), url(../images/tour-06.jpg);
+    margin: 20px;
+    min-width: 320px;
+    height: 360px; }
+  .productlist .image5 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(0, 179, 192, 0.2), rgba(0, 179, 192, 0.2)), url(../images/tour-07.jpg);
+    margin: 20px;
+    min-width: 320px;
+    height: 360px; }
+  .productlist .image6 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(0, 179, 192, 0.2), rgba(0, 179, 192, 0.2)), url(../images/tour-08.jpg);
+    margin: 20px;
+    min-width: 320px;
+    height: 360px; }
+  .productlist .button {
+    margin-left: 600px;
+    height: 50px;
+    width: 100px;
+    background-color: #7ff0ff;
+    justify-content: center;
     text-align: center;
-    text-decoration: none; }
-  .products .pgroup h2 {
-    padding-top: 10px; }
-
-.products .image1 {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-image: linear-gradient(to right, rgba(0, 179, 192, 0.2), rgba(0, 179, 192, 0.2)), url(../images/tour-03.jpg);
-  width: 260px;
-  height: 200px; }
-
-.products .image2 {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-image: linear-gradient(to right, rgba(0, 179, 192, 0.2), rgba(0, 179, 192, 0.2)), url(../images/tour-04.jpg);
-  width: 260px;
-  height: 200px; }
-
-.products .image3 {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-image: linear-gradient(to right, rgba(0, 179, 192, 0.2), rgba(0, 179, 192, 0.2)), url(../images/tour-05.jpg);
-  width: 260px;
-  height: 200px; }
-
-.products .image4 {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-image: linear-gradient(to right, rgba(0, 179, 192, 0.2), rgba(0, 179, 192, 0.2)), url(../images/tour-06.jpg);
-  width: 260px;
-  height: 200px; }
-
-.products .image5 {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-image: linear-gradient(to right, rgba(0, 179, 192, 0.2), rgba(0, 179, 192, 0.2)), url(../images/tour-07.jpg);
-  width: 260px;
-  height: 200px; }
-
-.products .image6 {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-image: linear-gradient(to right, rgba(0, 179, 192, 0.2), rgba(0, 179, 192, 0.2)), url(../images/tour-08.jpg);
-  width: 260px;
-  height: 200px; }
-
-.contact .cgroup {
-  display: flex;
-  padding: 40px 100px; }
-  .contact .cgroup .info {
-    padding: 50px 100px; }
-
-.contact .image1 {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-image: linear-gradient(to right, rgba(0, 192, 192, 0.2), rgba(0, 192, 192, 0.2)), url(../images/image4.jpg);
-  width: 300px;
-  height: 240px; }
-
-.blog .bgroup {
-  display: flex;
-  margin: 0 20px; }
-  .blog .bgroup section {
-    padding-top: 10px; }
-  .blog .bgroup p {
-    padding-top: 10px;
-    padding-right: 20px;
-    font-size: 10px; }
-
-.blog .image1 {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-image: url(../images/image5.jpg);
-  width: 160px;
-  height: 100px; }
-
-.productlist section {
-  display: flex; }
-
-.productlist p {
-  padding-top: 100px;
-  margin-left: 20px; }
-
-.productlist .image1 {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-image: linear-gradient(to right, rgba(0, 179, 192, 0.2), rgba(0, 179, 192, 0.2)), url(../images/tour-03.jpg);
-  margin: 20px;
-  min-width: 320px;
-  height: 360px; }
-
-.productlist .image2 {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-image: linear-gradient(to right, rgba(0, 179, 192, 0.2), rgba(0, 179, 192, 0.2)), url(../images/tour-04.jpg);
-  margin: 20px;
-  min-width: 320px;
-  height: 360px; }
-
-.productlist .image3 {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-image: linear-gradient(to right, rgba(0, 179, 192, 0.2), rgba(0, 179, 192, 0.2)), url(../images/tour-05.jpg);
-  margin: 20px;
-  min-width: 320px;
-  height: 360px; }
-
-.productlist .image4 {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-image: linear-gradient(to right, rgba(0, 179, 192, 0.2), rgba(0, 179, 192, 0.2)), url(../images/tour-06.jpg);
-  margin: 20px;
-  min-width: 320px;
-  height: 360px; }
-
-.productlist .image5 {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-image: linear-gradient(to right, rgba(0, 179, 192, 0.2), rgba(0, 179, 192, 0.2)), url(../images/tour-07.jpg);
-  margin: 20px;
-  min-width: 320px;
-  height: 360px; }
-
-.productlist .image6 {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-image: linear-gradient(to right, rgba(0, 179, 192, 0.2), rgba(0, 179, 192, 0.2)), url(../images/tour-08.jpg);
-  margin: 20px;
-  min-width: 320px;
-  height: 360px; }
-
-.productlist .button {
-  margin-left: 600px;
-  height: 50px;
-  width: 100px;
-  background-color: #7ff0ff;
-  justify-content: center;
-  text-align: center;
-  padding-top: 16px; }
+    padding-top: 16px; }
 
 footer {
   height: 50px;

@@ -1,4 +1,10 @@
 .products {
+  margin: auto;
+  width: 900px;
+  min-height: calc(100vh - 100px);
+  padding: 30px;
+  background-color: #79c9ff;
+
   .pgroup {
     display: flex;
     //justify-content: center;
