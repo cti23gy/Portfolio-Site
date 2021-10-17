@@ -58,5 +58,4 @@ function initListeners() {
 $(document).ready(function() {
     initListeners();
     //navToPage("home");
-    
 });
